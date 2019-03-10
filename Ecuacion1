@@ -1,0 +1,14 @@
+# Importamos la librería Sympy
+import sympy 
+# Importamos el módulo de latex
+sympy.init_printing(use_latex='mathjax')
+
+# Damos de alta la variable simbólica x, y la función Y
+x = sympy.Symbol('x')
+y = sympy.Function('y')
+
+#Expresamos la ecuacion 
+sympy.Eq(3*x*y(x).diff(x)-(x**2-9)*y(x)+1/x)
+
+# Resolviendo la ecuación
+sympy.dsolve(3*x*y(x).diff(x)-(x**2-9)*y(x)+1/x)
