@@ -1,3 +1,5 @@
+# Solucion de una ecuacion diferencial con Sympy
+
 # Importamos la librería Sympy
 import sympy 
 # Importamos el módulo de latex
